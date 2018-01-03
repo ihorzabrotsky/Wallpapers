@@ -46,6 +46,7 @@ class Room {
 		wallPlane.materials.first?.diffuse.wrapS = .repeat
 		wallPlane.materials.first?.diffuse.wrapT = .repeat
 		
+		///
 		
 		let wallNode = SCNNode(geometry: wallPlane)
 		wallNode.simdPosition = wallPositionCoordsForPosition(wallPosition, withWallHeight: height)
